@@ -1,6 +1,9 @@
 const MIN_ENTROPY = 3.5;
 const MIN_TOKENS_LENGTH = 32;
 
+/** 
+ * calculate the entropy of a token
+ */
 export function calculate(token: string): number {
   const length = token.length;
   const frequencies: Record<string,number> = {};
@@ -19,6 +22,11 @@ export function calculate(token: string): number {
   return res;
 }
 
+/**
+ * guarantee that a token has enough entropy 
+ * 
+ * thorws an error if the token is too short or has too low entropy
+ */
 export function ensure(token: string, minTokenLength: number = MIN_TOKENS_LENGTH, threshold: number=MIN_ENTROPY): void {
   if (token.length < minTokenLength)
     throw new Error('token is too short');

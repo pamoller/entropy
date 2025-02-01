@@ -1,6 +1,7 @@
 {
   "name": "@pamoller/entropy",
   "version": "0.1.1",
+  "description": "guarantees the entropy of a token",
   "exports": "./mod.ts",
   "tasks": {
     "dev": "deno test --watch mod.ts",
