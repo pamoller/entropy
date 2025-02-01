@@ -1,5 +1,5 @@
 [![JSR @pamoller/entropy](https://jsr.io/badges/@pamoller/entropy)](https://jsr.io/@pamoller/entropy)
-[![GitHub Actions CI](https://github.com/pamoller/entorpy/workflows/ci/badge.svg)](https://github.com/pamoller/entropy/actions/workflows/ci.yml)
+[![GitHub Actions CI](https://github.com/pamoller/entropy/workflows/ci/badge.svg)](https://github.com/pamoller/entropy/actions/workflows/ci.yml)
 # entropy
 
 Gurantees the entropy of a token
