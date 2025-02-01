@@ -32,8 +32,5 @@ jobs:
         with:
           deno-version: ${{ matrix.deno }}
 
-      - name: Install
-        run: npm install
-      
       - name: Run tests
         run: deno task test
